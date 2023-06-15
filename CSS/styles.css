@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar {
+  background-color: orange;
+  width: 100%;
+  height: 10%;
+
+  /* make nav bar touch the very top of page */
+  top: 0;
+
+  /* make the nav bar stay at top even after scrolling */
+  position: fixed;
+
+  /* flexbox */
+  display: flex;
+  flex-flow: row wrap;
+}
