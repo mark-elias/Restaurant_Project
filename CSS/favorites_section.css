@@ -16,8 +16,9 @@
     gap: 5rem;
   }
   .popular-item {
-    background-color: aqua;
+    background-color: #0080ff;
     border-radius: 10px;
+    border: 1px solid #0026ff;
   
     padding: 1rem 2rem;
     height: 100%;
