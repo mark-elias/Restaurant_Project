@@ -1,0 +1,29 @@
+#popular-section h2 {
+    text-align: center;
+    /* background-color: red; */
+  }
+  /* popular  */
+  #popular {
+    /* background-color: rgb(252, 202, 107); */
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+  
+    padding: 0rem 4rem;
+  
+    height: 70vh;
+    gap: 5rem;
+  }
+  .popular-item {
+    background-color: aqua;
+    border-radius: 10px;
+  
+    padding: 1rem 2rem;
+    height: 100%;
+    width: 100%;
+  }
+  .popular-item img {
+    width: 20px;
+    height: 20px;
+  }

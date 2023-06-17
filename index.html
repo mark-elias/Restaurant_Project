@@ -6,54 +6,63 @@
     <title>My Restaurant</title>
     <!-- stylesheet -->
     <link rel="stylesheet" href="CSS/styles.css" />
+    <link rel="stylesheet" href="CSS/nav_bar.css" />
+    <link rel="stylesheet" href="CSS/featured_section.css" />
+    <link rel="stylesheet" href="CSS/favorites_section.css" />
+    <link rel="stylesheet" href="CSS/footer.css" />
+    <link rel="stylesheet" href="CSS/dark_mode.css" />
   </head>
   <body>
-    <nav class="nav-bar">
+    <nav id="nav-bar">
       <div class="nav-logo">
         <img src="images/max_goofy.jpg" />
       </div>
       <div class="nav-buttons">
         <button id="order-button">Order</button>
-        <a href="google.com">Menu</a>
-        <a href="google.com">Locations</a>
-        <a href="google.com">About</a>
-        <a href="google.com">Cart</a>
-        <a href="google.com">Profile</a>
+        <a class="nav-bar-links" href="google.com">Menu</a>
+        <a class="nav-bar-links" href="google.com">Locations</a>
+        <a class="nav-bar-links" href="google.com">About</a>
+        <a class="nav-bar-links" href="google.com">Cart</a>
+        <a class="nav-bar-links" href="google.com">Profile</a>
+        <button id="dark-mode-button">Dark Mode</button>
       </div>
     </nav>
 
+    <!-- so that the nav bar doesnt block any contetn  -->
     <div class="content">
-      <section class="section-container">
-        <div id="left1">
+      <!--  -->
+      <section class="hero-section">
+        <div id="about-section">
           <h2>Restaurant Name</h2>
           <h3>motto slogan</h3>
-          <p id="practice">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
-            voluptatum, atque quidem ratione nam reprehenderit unde nobis ab
-            quisquam necessitatibus.
-          </p>
+          <p id="ex1"></p>
+          <p id="ex2"></p>
+          <p id="ex3"></p>
         </div>
-        <div id="right1">
+        <div id="featured-section">
           <h2>menu item</h2>
           <p>here at this restaurant</p>
         </div>
       </section>
 
-      <section id="popular">
-        <div class="popular-item">
-          <img src="images/max_goofy.jpg" />
-          <h2>this item</h2>
-          <p>product description</p>
-        </div>
-        <div class="popular-item">
-          <img src="images/max_goofy.jpg" />
-          <h2>this item</h2>
-          <p>product description</p>
-        </div>
-        <div class="popular-item">
-          <img src="images/max_goofy.jpg" />
-          <h2>this item</h2>
-          <p>product description</p>
+      <section id="popular-section">
+        <h2>Popular Menu Items</h2>
+        <div id="popular">
+          <div class="popular-item">
+            <img src="images/max_goofy.jpg" />
+            <h2>this item</h2>
+            <p>product description</p>
+          </div>
+          <div class="popular-item">
+            <img src="images/max_goofy.jpg" />
+            <h2>this item</h2>
+            <p>product description</p>
+          </div>
+          <div class="popular-item">
+            <img src="images/max_goofy.jpg" />
+            <h2>this item</h2>
+            <p>product description</p>
+          </div>
         </div>
       </section>
 
@@ -70,5 +79,6 @@
       </footer>
     </div>
     <script src="JS/script.js"></script>
+    <script src="JS/dark_mode.js"></script>
   </body>
 </html>
