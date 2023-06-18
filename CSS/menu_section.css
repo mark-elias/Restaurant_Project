@@ -25,6 +25,9 @@ margin-top: 5rem;
     flex-flow: column nowrap;
     /* justify-content: center; */
     align-items: center;
+
+    /* border: 1px solid #ffd95e ;
+    border-radius: 10px; */
 }
 .menu-item img {
     /* width: 90%;

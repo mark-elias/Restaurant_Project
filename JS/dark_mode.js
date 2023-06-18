@@ -29,7 +29,7 @@ darkMode_button.addEventListener("click", function () {
     darkMode_button.style.boxShadow = "rgba(255, 255, 255, 0.9) 0px 2px 10px";
 
     // Nav bar
-    navbar.style.backgroundColor = "#333333";
+    navbar.style.backgroundColor = "#121212";
     // code to change the navbar links, using a "for of" loop
     for (const element of navbar_links) {
       element.style.color = "white";
@@ -53,7 +53,7 @@ darkMode_button.addEventListener("click", function () {
 } else {
     // when in Light Mode
     
-    darkMode_button.style.backgroundColor = "#333333";
+    darkMode_button.style.backgroundColor = "#121212";
     darkMode_button.style.color = "white";
     darkMode_button.textContent = "Dark Mode";
     darkMode_button.style.boxShadow = "rgba(0, 0, 0, 0.9) 0px 5px 20px";

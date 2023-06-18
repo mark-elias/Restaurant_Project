@@ -8,15 +8,15 @@ let myArray = [p1,p2,p3]
 
 
 
-orderButton.onclick = function(){
+// orderButton.onclick = function(){
 
-    console.log("button cllicked");
+//     console.log("button cllicked");
     
-    myArray[0].textContent = Car.make;
-    myArray[1].textContent = Car.model;
-    myArray[2].textContent = Car.vroom();
+//     myArray[0].textContent = Car.make;
+//     myArray[1].textContent = Car.model;
+//     myArray[2].textContent = Car.vroom();
 
-}
+// }
 
 const Car = {
     make: "Chevrolet",
