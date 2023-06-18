@@ -10,21 +10,33 @@
     justify-content: space-evenly;
     align-items: center;
   
-    padding: 0rem 4rem;
+    /* padding: 0rem 4rem; */
   
     height: 70vh;
     gap: 5rem;
   }
   .popular-item {
-    background-color: #0080ff;
+    background-color: #ffd95e;
     border-radius: 10px;
-    border: 1px solid #0026ff;
+    /* border: 1px solid #0026ff; */
   
-    padding: 1rem 2rem;
+    padding: 0.5rem 0.5rem;
     height: 100%;
     width: 100%;
+    
+
+    transition: transform 0.5s;
+  
+  }
+  .popular-item:hover{
+    transform: scale(1.03);
   }
   .popular-item img {
-    width: 20px;
-    height: 20px;
+    max-width: 100%;
+    max-height: 50%;
+    width: 100%;
+    /* height: 35%; */
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
   }

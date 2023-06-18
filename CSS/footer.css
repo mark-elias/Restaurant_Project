@@ -1,6 +1,26 @@
+.footer {
+  background-color: #ffd95e;
+  padding: 0.5rem 2rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
 
-footer {
-    background-color: #ffd95e;
-    height: 60vh;
-  }
-  
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .footer h3 {
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 10px;
+} */
+
+/* .footer p {
+  color: #777;
+  font-size: 14px;
+} */
+
+.footer-bottom {
+  text-align: center;
+}

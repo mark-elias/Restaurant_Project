@@ -12,6 +12,11 @@
     <link rel="stylesheet" href="CSS/menu_section.css" />
     <link rel="stylesheet" href="CSS/footer.css" />
     <link rel="stylesheet" href="CSS/dark_mode.css" />
+    <!-- font awesome for icons -->
+    <script
+      src="https://kit.fontawesome.com/0f8cc9978b.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <nav id="nav-bar">
@@ -20,11 +25,12 @@
       </div>
       <div class="nav-buttons">
         <button id="order-button">Order</button>
-        <a class="nav-bar-links" href="google.com">Menu</a>
+        <a class="nav-bar-links" href="#menu-section">Menu</a>
         <a class="nav-bar-links" href="google.com">Locations</a>
         <a class="nav-bar-links" href="google.com">About</a>
-        <a class="nav-bar-links" href="google.com">Cart</a>
-        <a class="nav-bar-links" href="google.com">Profile</a>
+        <a class="nav-bar-links"><i class="fa-solid fa-bag-shopping"></i></a>
+        <a class="nav-bar-links"><i class="fa-solid fa-user"></i
+        ></a>
         <button id="dark-mode-button">Dark Mode</button>
       </div>
     </nav>
@@ -32,37 +38,59 @@
     <!-- so that the nav bar doesnt block any contetn  -->
     <div class="content">
       <!--  -->
-      <section class="hero-section">
-        <div id="about-section">
-          <h2>Restaurant Name</h2>
-          <h3>motto slogan</h3>
-          <p id="ex1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque eveniet, porro fugit id optio ipsum.</p>
-          <p id="ex2">Lorem ipsum dolor sit </p>
-          <p id="ex3">Lorem, ipsum dolor</p>
-        </div>
-        <div id="featured-section">
-          <h2>Lorem, ipsum dolor.</h2>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A praesentium eveniet odio nulla fuga beatae illo doloremque aspernatur sed libero.</p>
-        </div>
-      </section>
+      
+        <section class="hero-section">
+          <div id="about-section">
+            <h2>Restaurant Name</h2>
+            <h3>motto slogan</h3>
+            <p id="ex1">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque
+              eveniet
+            </p>
+            <p id="ex2">Lorem ipsum dolor sit</p>
+            <p id="ex3">Lorem, ipsum dolor</p>
+          </div>
+          <div id="featured-section">
+            <!-- <h2>Lorem, ipsum dolor.</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. A
+              praesentium eveniet odio nulla fuga beatae illo doloremque
+              aspernatur sed libero.
+            </p> -->
+          </div>
+        </section>
 
       <section id="popular-section">
         <h2>Popular Menu Items</h2>
         <div id="popular">
           <div class="popular-item">
-            <!-- <img src="images/max_goofy.jpg" /> -->
+            <img src="images/burger.jpg" />
             <h2>Lorem, ipsum dolor.</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur doloremque hic cumque nihil, voluptas dolore eveniet itaque porro voluptatum beatae!</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequatur doloremque hic cumque nihil, voluptas dolore eveniet
+              itaque porro voluptatum beatae!
+            </p>
           </div>
           <div class="popular-item">
-            <!-- <img src="images/max_goofy.jpg" /> -->
+            <!-- <div id="image-box"> -->
+              <img src="images/pizza.jpg" />
+            <!-- </div> -->
             <h2>Lorem, ipsum dolor.</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam et hic accusantium numquam! Explicabo officia dolore, sed iure error tempora?</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam et
+              hic accusantium numquam! Explicabo officia dolore, sed iure error
+              tempora?
+            </p>
           </div>
           <div class="popular-item">
-            <!-- <img src="images/max_goofy.jpg" /> -->
+            <img src="images/tacos.jpg" />
             <h2>Lorem, ipsum dolor.</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga ipsam illum, earum nam itaque saepe nihil veritatis unde quisquam assumenda.</p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga
+              ipsam illum, earum nam itaque saepe nihil veritatis unde quisquam
+              assumenda.
+            </p>
           </div>
         </div>
       </section>
@@ -73,77 +101,131 @@
           <div class="menu-item">
             <img src="images/max_goofy.jpg" />
             <h2>Lorem, ipsum dolor.</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga ipsam illum, earum nam itaque saepe nihil veritatis unde quisquam assumenda.</p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga
+              ipsam illum, earum nam itaque saepe nihil veritatis unde quisquam
+              assumenda.
+            </p>
           </div>
           <div class="menu-item">
             <img src="images/max_goofy.jpg" />
             <h2>Lorem, ipsum dolor.</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga ipsam illum, earum nam itaque saepe nihil veritatis unde quisquam assumenda.</p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga
+              ipsam illum, earum nam itaque saepe nihil veritatis unde quisquam
+              assumenda.
+            </p>
           </div>
           <div class="menu-item">
             <img src="images/max_goofy.jpg" />
             <h2>Lorem, ipsum dolor.</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga ipsam illum, earum nam itaque saepe nihil veritatis unde quisquam assumenda.</p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga
+              ipsam illum, earum nam itaque saepe nihil veritatis unde quisquam
+              assumenda.
+            </p>
           </div>
           <div class="menu-item">
             <img src="images/max_goofy.jpg" />
             <h2>Lorem, ipsum dolor.</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga ipsam illum, earum nam itaque saepe nihil veritatis unde quisquam assumenda.</p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga
+              ipsam illum, earum nam itaque saepe nihil veritatis unde quisquam
+              assumenda.
+            </p>
           </div>
           <div class="menu-item">
             <img src="images/max_goofy.jpg" />
             <h2>Lorem, ipsum dolor.</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga ipsam illum, earum nam itaque saepe nihil veritatis unde quisquam assumenda.</p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga
+              ipsam illum, earum nam itaque saepe nihil veritatis unde quisquam
+              assumenda.
+            </p>
           </div>
           <div class="menu-item">
             <img src="images/max_goofy.jpg" />
             <h2>Lorem, ipsum dolor.</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga ipsam illum, earum nam itaque saepe nihil veritatis unde quisquam assumenda.</p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga
+              ipsam illum, earum nam itaque saepe nihil veritatis unde quisquam
+              assumenda.
+            </p>
           </div>
           <div class="menu-item">
             <img src="images/max_goofy.jpg" />
             <h2>Lorem, ipsum dolor.</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga ipsam illum, earum nam itaque saepe nihil veritatis unde quisquam assumenda.</p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga
+              ipsam illum, earum nam itaque saepe nihil veritatis unde quisquam
+              assumenda.
+            </p>
           </div>
           <div class="menu-item">
             <img src="images/max_goofy.jpg" />
             <h2>Lorem, ipsum dolor.</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga ipsam illum, earum nam itaque saepe nihil veritatis unde quisquam assumenda.</p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga
+              ipsam illum, earum nam itaque saepe nihil veritatis unde quisquam
+              assumenda.
+            </p>
           </div>
           <div class="menu-item">
             <img src="images/max_goofy.jpg" />
             <h2>Lorem, ipsum dolor.</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga ipsam illum, earum nam itaque saepe nihil veritatis unde quisquam assumenda.</p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga
+              ipsam illum, earum nam itaque saepe nihil veritatis unde quisquam
+              assumenda.
+            </p>
           </div>
           <div class="menu-item">
             <img src="images/max_goofy.jpg" />
             <h2>Lorem, ipsum dolor.</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga ipsam illum, earum nam itaque saepe nihil veritatis unde quisquam assumenda.</p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga
+              ipsam illum, earum nam itaque saepe nihil veritatis unde quisquam
+              assumenda.
+            </p>
           </div>
           <div class="menu-item">
             <img src="images/max_goofy.jpg" />
             <h2>Lorem, ipsum dolor.</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga ipsam illum, earum nam itaque saepe nihil veritatis unde quisquam assumenda.</p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga
+              ipsam illum, earum nam itaque saepe nihil veritatis unde quisquam
+              assumenda.
+            </p>
           </div>
           <div class="menu-item">
             <img src="images/max_goofy.jpg" />
             <h2>Lorem, ipsum dolor.</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga ipsam illum, earum nam itaque saepe nihil veritatis unde quisquam assumenda.</p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga
+              ipsam illum, earum nam itaque saepe nihil veritatis unde quisquam
+              assumenda.
+            </p>
           </div>
         </div>
       </section>
 
-      <footer>
-        <p>Contact info</p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt,
-          quos culpa cumque at quod eveniet laudantium dolorum nisi odio dicta.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt,
-          quos culpa cumque at quod eveniet laudantium dolorum nisi odio dicta.
-        </p>
+      <footer class="footer">
+        <div class="footer-content">
+          <div class="footer-left">
+            <h3>About Us</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          <div class="footer-right">
+            <h3>Contact Us</h3>
+            <p>Email: info@example.com</p>
+            <p>Phone: 123-456-7890</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2023 Your Website. All rights reserved.</p>
+        </div>
       </footer>
+      
     </div>
     <script src="JS/script.js"></script>
     <script src="JS/dark_mode.js"></script>
