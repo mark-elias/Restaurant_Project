@@ -1,6 +1,10 @@
+#popular-section {
+  margin-top: 5rem;
+}
 #popular-section h2 {
     text-align: center;
     /* background-color: red; */
+    margin-bottom: 2rem;
   }
   /* popular  */
   #popular {
