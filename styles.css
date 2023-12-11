@@ -1,9 +1,70 @@
+/* Color Palette */
+:root {
+  --primary-color: #1c1c1c;
+  --secondary-color: #ffd95e;
+  --background-color: #ecf0f1;
+}
+/* Typography */
+html {
+  /* default = 16px */
+  /* 62.5% is 10px */
+  font-size: 18px;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--background-color);
+  color: var(--primary-color);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+h3 {
+  font-size: 1.2rem;
+}
+/* Nav Bar */
 nav {
-    background-color: yellow;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px 10px 0px;
+
+  border: 1px solid yellow;
+}
+.logo-section h2 {
+    margin: 0;
+    margin-bottom: 15px;
+}
+.nav-links {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.nav-links a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: var(--primary-color);
+}
+.nav-links a:hover {
+    color: var(--secondary-color);
 }
 main {
-    background-color: blue;
+  border: solid 5px lightblue;
 }
 footer {
-    background-color: darkgrey;
+  border: 5px solid orange;
 }
