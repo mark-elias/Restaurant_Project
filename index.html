@@ -1,233 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Restaurant</title>
-    <!-- stylesheet -->
-    <link rel="stylesheet" href="CSS/styles.css" />
-    <link rel="stylesheet" href="CSS/nav_bar.css" />
-    <link rel="stylesheet" href="CSS/featured_section.css" />
-    <link rel="stylesheet" href="CSS/favorites_section.css" />
-    <link rel="stylesheet" href="CSS/menu_section.css" />
-    <link rel="stylesheet" href="CSS/footer.css" />
-    <link rel="stylesheet" href="CSS/dark_mode.css" />
-    <!-- font awesome for icons -->
-    <script
-      src="https://kit.fontawesome.com/0f8cc9978b.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body>
-    <nav id="nav-bar">
-      <div class="nav-logo">
-        <!-- <img src="images/max_goofy.jpg" />
-         -->
-         <button>exampleRestaurant</button>
-      </div>
-      <div class="nav-buttons">
-        <button id="order-button">Order</button>
-        <a class="nav-bar-links" href="#menu-section">Menu</a>
-        <a class="nav-bar-links" href="google.com">Locations</a>
-        <a class="nav-bar-links" href="google.com">About</a>
-        <a class="nav-bar-links"><i class="fa-solid fa-bag-shopping"></i></a>
-        <a class="nav-bar-links"><i class="fa-solid fa-user"></i
-        ></a>
-        <button id="dark-mode-button">Dark Mode</button>
-      </div>
-    </nav>
-
-    <!-- so that the nav bar doesnt block any contetn  -->
-    <div class="content">
-      <!--  -->
-      
-        <section class="hero-section">
-          <div id="about-section">
-            <h2>Restaurant Name</h2>
-            <h3>motto slogan</h3>
-            <p id="ex1">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque
-              eveniet
-            </p>
-            <p id="ex2">Lorem ipsum dolor sit</p>
-            <p id="ex3">Lorem, ipsum dolor</p>
-          </div>
-          <div id="featured-section">
-            <!-- <h2>Lorem, ipsum dolor.</h2>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. A
-              praesentium eveniet odio nulla fuga beatae illo doloremque
-              aspernatur sed libero.
-            </p> -->
-          </div>
-        </section>
-
-      <section id="popular-section">
-        <h2>Popular Menu Items</h2>
-        <div id="popular">
-          <div class="popular-item">
-            <img src="images/burger_compressed.jpg" />
-            <h2>Lorem, ipsum dolor.</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consequatur doloremque hic cumque nihil, voluptas dolore eveniet
-              itaque porro voluptatum beatae!
-            </p>
-          </div>
-          <div class="popular-item">
-            <!-- <div id="image-box"> -->
-              <img src="images/pizza_slice_compressed.jpg" />
-            <!-- </div> -->
-            <h2>Lorem, ipsum dolor.</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam et
-              hic accusantium numquam! Explicabo officia dolore, sed iure error
-              tempora?
-            </p>
-          </div>
-          <div class="popular-item">
-            <img src="images/tacos_compressed.jpg" />
-            <h2>Lorem, ipsum dolor.</h2>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga
-              ipsam illum, earum nam itaque saepe nihil veritatis unde quisquam
-              assumenda.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section id="menu-section">
-        <h2>Menu</h2>
-        <div id="menu">
-          <div class="menu-item">
-            <img src="images/burger_compressed.jpg" />
-            <h2>Lorem, ipsum dolor.</h2>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga
-              ipsam illum, earum nam 
-            </p>
-          </div>
-          <div class="menu-item">
-            <img src="images/burger2_compressed.jpg" />
-            <h2>Lorem, ipsum dolor.</h2>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga
-              ipsam illum, earum nam
-            </p>
-          </div>
-          <div class="menu-item">
-            <img src="images/burger3_compressed.jpg" />
-            <h2>Lorem, ipsum dolor.</h2>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga
-              ipsam illum, earum nam
-            </p>
-          </div>
-          <div class="menu-item">
-            <img src="images/pizza_slice_compressed.jpg" />
-            <h2>Lorem, ipsum dolor.</h2>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga
-              ipsam illum, earum nam
-            </p>
-          </div>
-          <div class="menu-item">
-            <img src="images/pizza2_compressed.jpg" />
-            <h2>Lorem, ipsum dolor.</h2>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga
-              ipsam illum, earum nam itaque
-            </p>
-          </div>
-          <div class="menu-item">
-            <img src="images/pizza3_compressed.jpg" />
-            <h2>Lorem, ipsum dolor.</h2>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga
-              ipsam illum, earum na
-            </p>
-          </div>
-          <div class="menu-item">
-            <img src="images/tacos_compressed.jpg" />
-            <h2>Lorem, ipsum dolor.</h2>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga
-              ipsam illum, earum n
-            </p>
-          </div>
-          <div class="menu-item">
-            <img src="images/tacos2_compressed.jpg" />
-            <h2>Lorem, ipsum dolor.</h2>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga
-              ipsam illum, earum nam 
-            </p>
-          </div>
-          <div class="menu-item">
-            <img src="images/tacos_adobada_compressed.jpg" />
-            <h2>Lorem, ipsum dolor.</h2>
-            <p>
-              Lorem ipsum dolor 
-            </p>
-          </div>
-          <div class="menu-item">
-            <img src="images/tacos_shrimp_compressed.jpg" />
-            <h2>Lorem, ipsum dolor.</h2>
-            <p>
-              Lorem ipsum dolor sit, amet conse
-            </p>
-          </div>
-          <div class="menu-item">
-            <img src="images/fries_compressed.jpg" />
-            <h2>Lorem, ipsum dolor.</h2>
-            <p>
-              Lorem ipsum dolor 
-            </p>
-          </div>
-          <div class="menu-item">
-            <img src="images/chicken_tenders_compressed.jpg" />
-            <h2>Lorem, ipsum dolor.</h2>
-            <p>
-              Lorem ipsum dolor sit, amet cons
-            </p>
-          </div>
-          <div class="menu-item">
-            <img src="images/milkshake_strawberry_compressed.jpg" />
-            <h2>Lorem, ipsum dolor.</h2>
-            <p>
-              Lorem ipsum dolor sit, amet cons
-            </p>
-          </div>
-          <div class="menu-item">
-            <img src="images/milkshake_cookiesandcream_compressed.jpg" />
-            <h2>Lorem, ipsum dolor.</h2>
-            <p>
-              Lorem ipsum dolor sit, amet cons
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <footer class="footer">
-        <div class="footer-content">
-          <div class="footer-left">
-            <h3>About Us</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
-          <div class="footer-right">
-            <h3>Contact Us</h3>
-            <p>Email: info@example.com</p>
-            <p>Phone: 123-456-7890</p>
-          </div>
-        </div>
-        <div class="footer-bottom">
-          <p>&copy; 2023 Your Website. All rights reserved.</p>
-        </div>
-      </footer>
-      
-    </div>
-    <script src="JS/script.js"></script>
-    <script src="JS/dark_mode.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Project</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav>
+    <section class="logo-seciton">
+      <p>nav bar logo</p>
+    </section>
+    <section class="link-section">
+      <ul>
+        <li class="nav-links">order</li>
+        <li class="nav-links">menu</li>
+        <li class="nav-links">locations</li>
+        <li class="nav-links">about</li>
+      </ul>
+    </section>
+  </nav>
+  <div class="container">
+    <main>
+      <section class="hero">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam et assumenda, exercitationem ex in quas eius nemo vel doloribus molestias voluptate, ut fugit repudiandae dolorem id officiis quasi sed odio adipisci libero saepe soluta. Consectetur, doloremque iusto? Iusto asperiores sed, veniam nam unde facilis at tempora maiores, ea dignissimos assumenda explicabo doloremque delectus tenetur eligendi voluptatum exercitationem. Quidem accusantium, ea assumenda sint ducimus consectetur facilis similique quo perspiciatis. Consequatur sunt rem repellendus, obcaecati eius repellat ad culpa ipsum, sit dolorem cum, ab itaque mollitia aliquam. Officiis consequuntur animi ea praesentium, enim cum minima labore. Itaque modi ipsam tempore dolore vel.</section>
+      <section class="popular">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt sapiente amet nobis fugit ut, doloremque sed et animi ad alias soluta ab quibusdam delectus ipsa quae obcaecati. Quaerat error optio voluptatem voluptatibus placeat iusto possimus quibusdam quae nesciunt a velit nisi aperiam, blanditiis culpa corrupti consectetur, esse cupiditate autem tempore pariatur officia. Itaque, pariatur dignissimos! Quibusdam earum deserunt at consequuntur corporis quae natus suscipit incidunt, ad nulla facere ut magni enim odio possimus ullam tenetur, dicta mollitia itaque minus repudiandae. Maiores, recusandae doloribus animi veritatis totam excepturi fuga reprehenderit error blanditiis quas corrupti dicta soluta, quos labore quidem cum autem.</section>
+      <section class="menu">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, perferendis rem nihil eveniet distinctio minima quasi dignissimos non porro provident, veritatis ab minus a ducimus harum accusamus necessitatibus fuga neque animi qui doloribus consectetur accusantium quia! Iusto consequuntur rem architecto. Corporis amet temporibus distinctio porro harum dolores earum perspiciatis est aspernatur perferendis aliquam culpa ipsum ea architecto nemo tempora, hic veritatis possimus modi! Animi quis suscipit autem, exercitationem maxime commodi iusto ad impedit delectus fugit fuga deserunt corporis dolorem modi non. Vel possimus consequatur id ratione saepe! Magnam, facilis dolorum numquam, veniam quo doloremque deserunt illum impedit itaque consectetur magni.</section>
+    </main>
+    <footer>
+      <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam porro consequuntur sed a suscipit sapiente cum vitae dolorem delectus repudiandae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nam qui quia repellendus sit placeat perspiciatis, ullam ut, a eligendi corporis voluptates tenetur aut commodi sunt error, vitae beatae assumenda veniam! Rerum illum reiciendis sed, at repellat omnis, laudantium dignissimos, error magni culpa quod harum ab consectetur odit cupiditate. Autem ratione ut perferendis minima eveniet dignissimos possimus odio, accusamus rem eum sunt a labore iure in accusantium totam? Eum voluptatibus odit minima debitis dolore vitae at molestiae, reiciendis quas tempore veritatis sunt perferendis possimus porro esse deserunt repudiandae nobis! Nihil esse architecto ad mollitia molestias dicta quis aperiam sint ducimus?</h3>
+    </footer>
+  </div>
+</body>
 </html>
