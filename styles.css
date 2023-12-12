@@ -62,13 +62,20 @@ nav {
     padding: 20px 50px 20px 50px;
   }
 }
-.logo-section h2 {
+
+.logo-section a {
+  color: var(--primary-color);
+  text-decoration: none;
+  display: inline-block;
   margin-bottom: 15px;
+  border: 1px solid black;
+  border-radius: 10px 0px 10px 0px;
+  padding: 5px;
 }
 /* Desktop styles */
 @media only screen and (min-width: 1024px) {
   /* Your desktop styles go here */
-  .logo-section h2 {
+  .logo-section a {
     margin: 0;
   }
 }
@@ -79,9 +86,6 @@ nav {
   justify-content: center;
   align-items: center;
   gap: 20px;
-  /* width: 100%; */
-  /* margin: 0; */
-  /* padding: 0; */
 }
 .nav-links a {
   text-decoration: none;
@@ -89,6 +93,10 @@ nav {
   color: var(--primary-color);
 }
 .nav-links a:hover {
+  color: var(--secondary-color);
+}
+.nav-links i:hover {
+  cursor: pointer;
   color: var(--secondary-color);
 }
 
