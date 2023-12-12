@@ -2,32 +2,33 @@
 :root {
   --primary-color: #1c1c1c;
   --secondary-color: #ffd95e;
-  --background-color: #ecf0f1;
+  --background-color: white;
 }
 /* Typography */
 html {
-  /* default = 16px */
-  /* 62.5% is 10px */
   font-size: 18px;
 }
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 body {
   background-color: var(--background-color);
   color: var(--primary-color);
   font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
 }
 h1 {
   font-size: 2rem;
+  margin: 0;
 }
 h2 {
   font-size: 1.5rem;
+  margin: 0;
 }
 h3 {
   font-size: 1.2rem;
+  margin: 0;
 }
 /* Nav Bar */
 nav {
@@ -35,36 +36,91 @@ nav {
   flex-flow: column nowrap;
   justify-content: space-between;
   align-items: center;
+
+  background-color: var(--background-color);
   padding: 10px 0px 10px 0px;
 
-  border: 1px solid yellow;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 100; /* Ensures the navbar stays on top of other elements */
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+}
+/* Tablet styles */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Your tablet styles go here */
+}
+/* Desktop styles */
+@media only screen and (min-width: 1024px) {
+  /* Your desktop styles go here */
+  nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 20px 50px 20px 50px;
+  }
 }
 .logo-section h2 {
+  margin-bottom: 15px;
+}
+/* Desktop styles */
+@media only screen and (min-width: 1024px) {
+  /* Your desktop styles go here */
+  .logo-section h2 {
     margin: 0;
-    margin-bottom: 15px;
+  }
 }
 .nav-links {
+    list-style: none;
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
   gap: 20px;
-  list-style: none;
-  width: 100%;
-  margin: 0;
-  padding: 0;
+  /* width: 100%; */
+  /* margin: 0; */
+  /* padding: 0; */
 }
 .nav-links a {
-    text-decoration: none;
-    font-size: 1.2rem;
-    color: var(--primary-color);
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: var(--primary-color);
 }
 .nav-links a:hover {
-    color: var(--secondary-color);
+  color: var(--secondary-color);
+}
+
+.container {
+  margin: 20px 20px 0px 20px;
+}
+/* Tablet styles */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Your tablet styles go here */
+  .container {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+/* Desktop styles */
+@media only screen and (min-width: 1024px) {
+  /* Your desktop styles go here */
+  .container {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
 }
 main {
-  border: solid 5px lightblue;
+  background-color: var(--background-color);
+  /* border: 1px solid red; */
+  padding: 20px 20px 20px 20px;
 }
 footer {
-  border: 5px solid orange;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    
+    /* border: 1px blue solid; */
+    padding: 20px 20px 20px 20px;
+    margin-top: 20px;
 }
