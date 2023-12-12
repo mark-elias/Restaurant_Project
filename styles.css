@@ -3,6 +3,7 @@
   --primary-color: #1c1c1c;
   --secondary-color: #ffd95e;
   --background-color: white;
+  --darkmode-color: #121212;
 }
 /* Typography */
 html {
@@ -46,7 +47,8 @@ nav {
   z-index: 100; /* Ensures the navbar stays on top of other elements */
 
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  border-radius: 10px;
+  /* border-radius: 10px; */
+  border-radius: 0px 0px 10px 10px;
 }
 /* Tablet styles */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -126,7 +128,7 @@ main {
 }
 footer {
   background-color: var(--secondary-color);
-  border-radius: 10px;
+  border-radius: 10px 10px 0px 0px;
 
   /* border: 1px blue solid; */
   padding: 20px 20px 20px 20px;
@@ -134,8 +136,8 @@ footer {
 }
 
 #image-box {
-    background-color: #ffd95e;
-    border-radius: 10px;
-    width: 100%;
-    height: 200px;
+  background-color: #ffd95e;
+  border-radius: 10px;
+  width: 100%;
+  height: 200px;
 }
