@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Restaurant Project</title>
     <link rel="stylesheet" href="styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
     <script
       src="https://kit.fontawesome.com/0f8cc9978b.js"
       crossorigin="anonymous"
@@ -17,15 +20,15 @@
     <nav>
       <section class="logo-section">
         <h2>
-          <em><a href="./index.html">nav bar logo</a></em>
+          <em><a href="./index.html">Savor Haven</a></em>
         </h2>
       </section>
       <section class="link-section">
         <ul class="nav-links">
           <!-- <li><a href="#">order</a></li> -->
-          <li><a href="./pages/menu.html">menu</a></li>
-          <li><a href="./pages/locations.html">locations</a></li>
-          <li><a href="./pages/about.html">about</a></li>
+          <li><a href="./pages/menu.html">Menu</a></li>
+          <li><a href="./pages/locations.html">Locations</a></li>
+          <li><a href="./pages/about.html">About</a></li>
           <li>
             <a href="./pages/cart.html"
               ><i class="fa-solid fa-bag-shopping"></i
@@ -48,22 +51,83 @@
             />
           </div>
           <h1>Savor Haven</h1>
-          <p>At "Savor Haven," these values guide us in creating a dining experience that goes beyond the plate, reflecting our commitment to excellence, hospitality, and the joy of shared moments.</p>
+          <h3>Where flavors unite in a symphony of pizza, burgers, and tacos. Our chef's passion for crafting mouthwatering dishes ensures a delightful dining experience. From classic Margherita pizzas to savory gourmet burgers and zesty street-style tacos, we offer a diverse menu that caters to every palate. Come savor the fusion of taste at Slice & Dice Bistro – where variety meets excellence.</h3>
+        </section>
+        <section class="closest-location">
+          <h2>Closest Location to You</h2>
+          <div class="closest-location-box">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6713.057820493654!2d-117.17354535485826!3d32.72514364474129!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d954b23b548949%3A0x243cdcc47bf9d4b8!2sLittle%20Italy%2C%20San%20Diego%2C%20CA%2092101!5e0!3m2!1sen!2sus!4v1703993138578!5m2!1sen!2sus"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            <section class="location">
+              <h2>Little Italy</h2>
+              <p>1608 India St., San Diego, CA 92101</p>
+              <h3>Hours</h3>
+              <p>Mon-Thur: 10:30 AM - 9:00 PM</p>
+              <p>Fri-Sat: 10:30 AM - 10:00 PM</p>
+            </section>
+          </div>
         </section>
         <section class="popular">
-          <h2>popular menu items</h2>
+          <h2>Popular Menu Orders</h2>
+          <section class="card-container">
+            <div class="card">
+              <div class="card-image-container">
+                <img src="../assets/images/burger_compressed.jpg" />
+              </div>
+              <div class="card-info">
+                <h3>Classic Burger</h3>
+                <p>
+                  100% Grass-fed American Beef, Cheddar, Onion Rings, Bacon, BBQ
+                  Sauce, Mayonnaise. Available for a limited time.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image-container">
+                <img src="../assets/images/tacos_compressed.jpg" />
+              </div>
+              <div class="card-info">
+                <h3>Carne Asada Tacos</h3>
+                <p>
+                  Grilled marinated flank steak, citrus-infused, nestled in soft
+                  corn tortillas, topped with cilantro, onions, and a hint of
+                  lime.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image-container">
+                <img src="../assets/images/chicken_tenders_compressed.jpg" />
+              </div>
+              <div class="card-info">
+                <h3>Chicken Tenders</h3>
+                <p>
+                  Crispy tender chicken, seasoned to perfection, served with
+                  your choice of dipping sauces for a deliciously satisfying
+                  bite.
+                </p>
+              </div>
+            </div>
+          </section>
         </section>
-        <section class="menu">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione,
-          perferendis rem nihil eveniet distinctio minima quasi dignissimos
-          nonitationem maxime commodi iusto ad impedit delectus fugit fuga
-          deserunt corporis dolorem modi non. Vel possimus consequatur id
-          ratione saepe! Magnam, facilis dolorum numquam, veniam quo doloremque
-          deserunt illum impedit itaque consectetur magni.
-        </section>
-        <section class="buttons-section">
-          <button>View Full Menu</button>
-          <button>View Other Locations</button>
+        <section class="promotions">
+          <div class="promo-container">
+            <div class="promo-info">
+              <h2>Kids Eat Free on Tuesdays!</h2>
+              <h3>One Free Classic Burger when you order any entree. Dine-in, Takeout, and Delivery</h3>
+              <h3>Use Online Promo Code: KIDS</h3>
+            </div>
+            <div class="promo-image">
+              <img src="./assets/images/burger_compressed.jpg">
+            </div>
+          </div>
         </section>
       </main>
       <footer>
