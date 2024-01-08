@@ -132,7 +132,7 @@ nav {
 }
 
 /* Tablet styles */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media only screen and (min-width: 450px) {
 
   /* Your tablet styles go here */
   .container {
@@ -140,9 +140,8 @@ nav {
     margin-right: 100px;
   }
 }
-
 /* Desktop styles */
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1050px) {
 
   /* Your desktop styles go here */
   .container {
@@ -183,32 +182,28 @@ footer .social-links {
 }
 
 .hero-image-container {
-  height: 20vh;
+  height: 150px;
   width: 100%;
   overflow: hidden;
 }
 
 /* Tablet styles */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media only screen and (min-width: 450px){
   .hero-image-container {
-    height: 30vh;
+    height: 200px;
   }
 }
-
 /* Desktop styles */
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1050px) {
   .hero-image-container {
-    height: 40vh;
+    height: 300px;
   }
 }
 
 #hero-image {
   width: 100%;
-  /* Make the image fill the container */
   height: 100%;
-  /* Make the image fill the container */
   object-fit: cover;
-  /* Maintain aspect ratio and cover the container */
   border-radius: 10px;
 }
 
@@ -278,7 +273,7 @@ footer .social-links {
 }
 
 .card {
-  width: 450px;
+  width: 100%;
   height: 400px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 10px;
@@ -397,6 +392,7 @@ footer .social-links {
   }
 }
 
+/* Popular Section */
 .popular h2 {
   text-align: center;
 }
@@ -409,7 +405,7 @@ footer .social-links {
 }
 
 /* Desktop styles */
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1050px) {
   .popular .card-container {
     flex-flow: row nowrap;
     justify-content: center;
@@ -433,6 +429,7 @@ footer .social-links {
     align-items: center;
   }
 }
+
 .promo-info {
   width: 60%;
 }
