@@ -67,11 +67,6 @@ nav {
   border-radius: 0px 0px 10px 10px;
 }
 
-/* Tablet styles */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-  /* Your tablet styles go here */
-}
-
 /* Desktop styles */
 @media only screen and (min-width: 1024px) {
 
@@ -556,11 +551,18 @@ button {
   overflow: hidden;
 }
 /* Desktop styles */
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1124px) {
   .item-info {
     margin-right: 250px;
   }
 }
+/* Mobile Styles */
+@media only screen and (max-width: 431px) {
+  .item-info {
+    display: none;
+  }
+}
+
 
 .item-price {
   display: flex;
